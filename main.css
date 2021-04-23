@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body, html {
+  font-size: 14px;
+  overflow: hidden;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f2f4f8;
+}
+
+.app {
+  width: 540px;
+  height: 700px;
+  padding: 20px;
+  border-radius: 20px;
+  background: #00498c;
+}
+.app__screen {
+  background: #fff;
+}
+.app__body {
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.app__input {
+  width: 50%;
+  color: #fff;
+  padding: 0 10px;
+  margin-bottom: 1em;
+}
+.app__input--full {
+  width: 100%;
+}
+.app__input-label {
+  display: block;
+  margin-bottom: .5em;
+}
+.app__input-value {
+  width: 100%;
+  border: none;
+  padding: .5em 1em;
+  border-radius: 5px;
+}
